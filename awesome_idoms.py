@@ -28,4 +28,4 @@ print reduce(lambda x, y: x + y, l)
 
 # Sort dictionary in decreasing order based on value and based on key when values are same.
 x_d = {'b':2, 'd':3, 'c':3}
-total = dict(sorted(x_d.items(), key=lambda x: (-x[1], x[0])))
+print dict(sorted(x_d.items(), key=lambda x: (-x[1], x[0])))
