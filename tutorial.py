@@ -56,18 +56,22 @@ source_list = [11, 21, 2, 4, 24, 13, 6] # Ans: 45
 source_str = "this is again awesome" # Ans: "this_is_again_awesome"
 
 # Traditional way ??
+# Hint: Use split followed by join.
 
 ##################################################
 # Ex6: Count number of words (each word is separated by space) in the string.
 source_str = "once upon a time" # Ans: 4
 
 # Traditional way ??
+# Hint: You may need to use split.
 
 ###################################################
 # Ex7: Convert words to all caps and all lower alternatively.
 source_str = "There Was An Elephant In The Jungle" # Ans: "THERE was AN elephant IN the JUNGLE"
 
 # Traditional way ??
+# Hint: "Sample".lower() -> sample ; "Sample".upper() -> "SAMPLE"
+# Hint: Use split followed by join and also above functions.
 
 #####################################################
 # Ex8: Find maximum number in the source list.
