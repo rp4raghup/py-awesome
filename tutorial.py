@@ -39,7 +39,8 @@ dest_str = []
 for ele in source_str:
   if ele not in ['a', 'e', 'i', 'o', 'u']:
     dest_str.append(ele)
-
 answer = "".join(dest_str)
 
-# LC Way??
+# LC Way
+dest_list = [ele for ele in source_str if ele not in ['a', 'e', 'i', 'o', 'u']]
+answer = "".join(dest_str)
