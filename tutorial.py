@@ -44,3 +44,33 @@ answer = "".join(dest_str)
 # LC Way
 dest_list = [ele for ele in source_str if ele not in ['a', 'e', 'i', 'o', 'u']]
 answer = "".join(dest_str)
+
+##################################################
+# Ex4: Find the sum of all odd numbers in the source_list.
+source_list = [11, 21, 2, 4, 24, 13, 6] # Ans: 45
+
+# Traditional way ??
+
+##################################################
+# Ex5: replace all the spaces in the string with underscore.
+source_str = "this is again awesome" # Ans: "this_is_again_awesome"
+
+# Traditional way ??
+
+##################################################
+# Ex6: Count number of words (each word is separated by space) in the string.
+source_str = "once upon a time" # Ans: 4
+
+# Traditional way ??
+
+###################################################
+# Ex7: Convert words to all caps and all lower alternatively.
+source_str = "There Was An Elephant In The Jungle" # Ans: "THERE was AN elephant IN the JUNGLE"
+
+# Traditional way ??
+
+#####################################################
+# Ex8: Find maximum number in the source list.
+source_list = [10, 2, 89, 44, 12, 73] # Ans: 89
+
+# Traditional way ??
