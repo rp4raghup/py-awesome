@@ -1,5 +1,5 @@
-# py-awesome
+# awesome_idoms.py
 Any thing which can be done in a single line in Python :)
 
 # tutorial.py
-Teaching python to beginners
+Learning python for beginners focussed on loops and list comprehension
